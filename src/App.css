@@ -8,14 +8,14 @@ html {
 
 .container {
   width: 90vw;
-  max-width: 400px;
+  max-width: 300px;
   margin: 100px auto;
   text-align: center;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   background-color: #ffffff;
   transition: all 0.3s;
   border-radius: 3px;
-  padding: 30px 60px;
+  padding: 2rem;
 }
 
 .container:hover {
@@ -77,4 +77,23 @@ html {
   background-color: black;
   color: white;
   font-weight: 500;
+  border-radius: 4px;
+}
+
+@media (max-width: 360px) {
+  .container {
+    width: 280px;
+    padding: 0.7rem;
+  }
+  .form-class {
+    margin: 0 auto;
+  }
+
+  .form-class button,
+  .form-class input {
+    padding: 0.2rem;
+    outline: transparent;
+    font-size: 14px;
+    border: 1px solid lightgray;
+  }
 }
