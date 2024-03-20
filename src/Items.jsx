@@ -3,7 +3,7 @@ import SingleItem from './SingleItem';
 
 function Items({ items, removeItem, editItem }) {
   return (
-    <div>
+    <div className="items-container">
       {items.map(item => {
         return <SingleItem key={item.id} item={item} removeItem={removeItem} editItem={editItem} />;
       })}

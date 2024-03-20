@@ -15,8 +15,9 @@ function Form({ addItem }) {
   }
 
   return (
-    <div className="main-form">
-      <form onSubmit={handleSubmit}>
+    <div className="form-container">
+      <h1>Grocery List</h1>
+      <form onSubmit={handleSubmit} className="form-class">
         <input type="text" value={newItemName} onChange={e => setNewItemName(e.target.value)} />
         <button type="submit">Add item</button>
       </form>

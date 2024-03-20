@@ -51,8 +51,7 @@ function App() {
   }
 
   return (
-    <div className="main-div">
-      <h1>Grocery List</h1>
+    <div className="container">
       <Form addItem={addItem} />
       <Items items={items} removeItem={removeItem} editItem={editItem} />
     </div>
