@@ -82,7 +82,7 @@ html {
 
 @media (max-width: 360px) {
   .container {
-    width: 290px;
+    width: 280px;
     padding: 0.7rem;
   }
   .form-class {
@@ -91,7 +91,7 @@ html {
 
   .form-class button,
   .form-class input {
-    padding: 0.2rem;
+    padding: 0.2rem 0.1rem;
     outline: transparent;
     font-size: 14px;
     border: 1px solid lightgray;
