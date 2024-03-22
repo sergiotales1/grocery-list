@@ -8,7 +8,7 @@ html {
 
 .container {
   width: 90vw;
-  max-width: 300px;
+  max-width: 400px;
   margin: 100px auto;
   text-align: center;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
@@ -83,6 +83,7 @@ html {
 @media (max-width: 360px) {
   .container {
     width: 290px;
+    max-width: 300px;
     padding: 0.7rem;
   }
   .form-class {
