@@ -82,19 +82,7 @@ html {
 
 @media (max-width: 560px) {
   .container {
-    width: 290px;
     max-width: 300px;
     padding: 0.7rem;
-  }
-  .form-class {
-    margin: 0 auto;
-  }
-
-  .form-class button,
-  .form-class input {
-    padding: 0.2rem;
-    outline: transparent;
-    font-size: 14px;
-    border: 1px solid lightgray;
   }
 }
