@@ -82,7 +82,7 @@ html {
 
 @media (max-width: 360px) {
   .container {
-    width: 280px;
+    width: 260px;
     padding: 0.7rem;
   }
   .form-class {
