@@ -4,14 +4,14 @@ function SingleItem({ item, removeItem, editItem }) {
   return (
     <div className="single-item">
       <input
-        name={item}
-        id={item}
+        name={item.name}
+        id={item.name}
         type="checkbox"
         checked={item.completed}
         onChange={() => editItem(item.id)}
       />
       <label
-        htmlFor={item}
+        htmlFor={item.name}
         style={{ textTransform: 'capitalize', textDecoration: item.completed && 'line-through  ' }}
       >
         <p>{item.name}</p>
